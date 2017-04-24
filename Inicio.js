@@ -5,6 +5,8 @@
  */
 
 
-$("#oprimir").click(function (){
+$("#esta").click(function (){
     alert("Me has apachurrado!!!");
+    
+    
 });
