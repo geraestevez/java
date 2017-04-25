@@ -6,6 +6,10 @@
 /* global end */
     $num=true;
     $vIk=0;
+    $vB=0;
+    $vN=0;
+    $vC=0;
+    $vK=0;
 $("#iker").click(function(){
     
       if($num==true){
@@ -22,6 +26,7 @@ $("#iker").click(function(){
 $("#buffon").click(function(){
     if($num==true){
     alert("Has votado a Buffon como mejor portero");
+     $vB+=1;
      $num=false;
     end;
     }
@@ -33,6 +38,7 @@ $("#buffon").click(function(){
 $("#neuer").click(function(){
     if($num==true){
     alert("Has votado a Neuer como mejor portero");
+    $vN+=1;
     $num=false;
     end;
     }
@@ -44,6 +50,7 @@ $("#neuer").click(function(){
 $("#cech").click(function(){
     if($num==true){
     alert("Has votado a Cech como mejor portero");
+    $vC+=1;
     $num=false;
     end;
     }
@@ -55,6 +62,7 @@ $("#cech").click(function(){
 $("#navas").click(function(){
     if($num==true){
     alert("Has votado a Keylor como mejor portero");
+    $vK+=1;
     $num=false;
     end;
     }
